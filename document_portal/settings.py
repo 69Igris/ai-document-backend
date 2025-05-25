@@ -164,7 +164,7 @@ SIMPLE_JWT = {
 # CORS settings
 CORS_ALLOW_CREDENTIALS = True
 # Get CORS origins from environment variable or use default
-CORS_ALLOWED_ORIGINS_ENV = os.getenv('CORS_ALLOWED_ORIGINS', 'http://localhost:3000')
+CORS_ALLOWED_ORIGINS_ENV = os.getenv('CORS_ALLOWED_ORIGINS', 'https://ai-document-frontend-pi.vercel.app')
 CORS_ALLOWED_ORIGINS = CORS_ALLOWED_ORIGINS_ENV.split(',')
 
 # Media files
